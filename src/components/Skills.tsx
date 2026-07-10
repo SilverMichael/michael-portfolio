@@ -1,4 +1,5 @@
 import { useApp } from '../context/AppContext'
+import { skillIcons } from '../skillIcons'
 
 const skillsByCategory = [
   ["React", "Next.js", "React Native", "TypeScript", "JavaScript", "Tailwind CSS", "HTML / CSS"],
@@ -25,11 +26,21 @@ export function Skills() {
                 <span className="skill-cat-name">{catName}</span>
               </div>
               <div className="skill-tags">
-                {skillsByCategory[idx].map((skill) => (
-                  <span key={skill} className="skill-tag">
-                    {skill}
-                  </span>
-                ))}
+                {skillsByCategory[idx].map((skill) => {
+                  const icons = skillIcons[skill]
+                  return (
+                    <span key={skill} className="skill-tag">
+                      {icons && (
+                        <span className="skill-tag-icons">
+                          {icons.map(({ Icon, color }, i) => (
+                            <Icon key={i} style={color ? { color } : undefined} />
+                          ))}
+                        </span>
+                      )}
+                      {skill}
+                    </span>
+                  )
+                })}
               </div>
             </div>
           ))}

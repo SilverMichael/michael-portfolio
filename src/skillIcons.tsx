@@ -1,0 +1,56 @@
+import type { IconType } from 'react-icons'
+import {
+  SiReact,
+  SiNextdotjs,
+  SiTypescript,
+  SiJavascript,
+  SiTailwindcss,
+  SiHtml5,
+  SiCss,
+  SiNodedotjs,
+  SiExpress,
+  SiGraphql,
+  SiDotnet,
+  SiPhp,
+  SiPython,
+  SiMysql,
+  SiPostgresql,
+  SiSqlite,
+  SiPrisma,
+  SiGit,
+  SiGithub,
+  SiStripe,
+  SiVite,
+  SiWordpress,
+  SiDocker,
+} from 'react-icons/si'
+
+export type SkillIcon = { Icon: IconType; color?: string }
+
+// Monochrome brand marks (Next.js, Express, GitHub, Prisma) omit `color`
+// so they inherit currentColor and adapt to the theme automatically.
+export const skillIcons: Record<string, SkillIcon[]> = {
+  'React': [{ Icon: SiReact, color: '#61DAFB' }],
+  'Next.js': [{ Icon: SiNextdotjs }],
+  'React Native': [{ Icon: SiReact, color: '#61DAFB' }],
+  'TypeScript': [{ Icon: SiTypescript, color: '#3178C6' }],
+  'JavaScript': [{ Icon: SiJavascript, color: '#F7DF1E' }],
+  'Tailwind CSS': [{ Icon: SiTailwindcss, color: '#38BDF8' }],
+  'HTML / CSS': [{ Icon: SiHtml5, color: '#E34F26' }, { Icon: SiCss, color: '#1572B6' }],
+  'Node.js': [{ Icon: SiNodedotjs, color: '#3C873A' }],
+  'Express': [{ Icon: SiExpress }],
+  'GraphQL': [{ Icon: SiGraphql, color: '#E10098' }],
+  'C# .NET': [{ Icon: SiDotnet, color: '#7B4FE3' }],
+  'PHP': [{ Icon: SiPhp, color: '#8892BF' }],
+  'Python': [{ Icon: SiPython, color: '#4B8BBE' }],
+  'MySQL': [{ Icon: SiMysql, color: '#5D9BC7' }],
+  'PostgreSQL': [{ Icon: SiPostgresql, color: '#6B93D6' }],
+  'SQLite': [{ Icon: SiSqlite, color: '#4A94D4' }],
+  'Prisma': [{ Icon: SiPrisma }],
+  'Git': [{ Icon: SiGit, color: '#F05032' }],
+  'GitHub': [{ Icon: SiGithub }],
+  'Stripe': [{ Icon: SiStripe, color: '#8C86FF' }],
+  'Vite': [{ Icon: SiVite, color: '#8B90FF' }],
+  'WordPress': [{ Icon: SiWordpress, color: '#4C9FD6' }],
+  'Docker': [{ Icon: SiDocker, color: '#3597E4' }],
+}

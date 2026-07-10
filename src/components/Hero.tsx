@@ -37,11 +37,7 @@ export function Hero() {
         </h1>
 
         {/* Titre */}
-        <p className="hero-title">
-          <span className="bracket">&lt;</span>
-          {t.hero.title}
-          <span className="bracket">/&gt;</span>
-        </p>
+        <p className="hero-title">{t.hero.title}</p>
 
         {/* Bio */}
         <p className="hero-bio">{t.hero.bio}</p>
