@@ -83,6 +83,22 @@ export const translations = {
       title: 'Ce que j\'ai construit',
       items: [
         {
+          title: 'GrootPay — Gestion de Restaurant',
+          description: 'Solution complète pour la gestion digitale de restaurant, composée d\'un menu interactif pour les clients, d\'un back-office pour les gérants et d\'une API GraphQL en temps réel. Couvre la prise de commandes, les paiements, la gestion des stocks, les pourboires et un programme de fidélité.',
+          tech: ['React', 'Node.js', 'GraphQL', 'MySQL', 'Prisma', 'Stripe'],
+        },
+        {
+          title: 'Vespère — Vitrine Parfumerie',
+          description: 'Projet personnel réalisé pour travailler mon sens du design : une vitrine élégante pour une maison de parfumerie fictive, avec présentation des collections, animations au scroll et mise en page soignée.',
+          tech: ['HTML', 'CSS', 'JavaScript'],
+          link: 'https://vespere-perfume.johanne-razafimahefa.workers.dev/',
+        },
+        {
+          title: 'SOX — SaaS Cabinets Comptables',
+          description: 'Plateforme de gestion tout-en-un pour les cabinets comptables et juridiques. Centralise le suivi des entreprises clientes, des déclarations fiscales et sociales, des documents et des équipes. Intègre la signature électronique, l\'envoi d\'emails automatisé et un système de ticketing interne.',
+          tech: ['Next.js', 'Symfony', 'MySQL', 'Stripe', 'DocuSeal', 'Mailgun'],
+        },
+        {
           title: 'BPF — Plateforme e-learning',
           description: 'Plateforme d\'apprentissage en ligne permettant aux étudiants d\'accéder à des cours par catégorie (IT, design, business…) et aux formateurs de créer et monétiser leurs programmes. Propose des vidéos, flashcards, fiches de révision et QCM interactifs, disponible sur web et mobile.',
           tech: ['Next.js', 'React Native', 'Symfony', 'MySQL', 'Stripe'],
@@ -97,22 +113,13 @@ export const translations = {
           description: 'Outil de gestion des interventions terrain pour les entreprises de maintenance (CVC, plomberie…). Permet de créer des bons de travail, dispatcher les techniciens selon leurs disponibilités, gérer les devis et la facturation, et signer les documents directement depuis l\'application.',
           tech: ['Next.js', 'Symfony', 'MySQL', 'Payplug', 'DocuSeal', 'FullCalendar'],
         },
-        {
-          title: 'SOX — SaaS Cabinets Comptables',
-          description: 'Plateforme de gestion tout-en-un pour les cabinets comptables et juridiques. Centralise le suivi des entreprises clientes, des déclarations fiscales et sociales, des documents et des équipes. Intègre la signature électronique, l\'envoi d\'emails automatisé et un système de ticketing interne.',
-          tech: ['Next.js', 'Symfony', 'MySQL', 'Stripe', 'DocuSeal', 'Mailgun'],
-        },
-        {
-          title: 'GrootPay — Gestion de Restaurant',
-          description: 'Solution complète pour la gestion digitale de restaurant, composée d\'un menu interactif pour les clients, d\'un back-office pour les gérants et d\'une API GraphQL en temps réel. Couvre la prise de commandes, les paiements, la gestion des stocks, les pourboires et un programme de fidélité.',
-          tech: ['React', 'Node.js', 'GraphQL', 'MySQL', 'Prisma', 'Stripe'],
-        },
       ],
       modal: {
         close: 'Fermer',
         prev: 'Précédent',
         next: 'Suivant',
       },
+      viewLive: 'Voir le site',
     },
     skills: {
       label: '// 03. Skills',
@@ -206,6 +213,22 @@ export const translations = {
       title: 'What I\'ve built',
       items: [
         {
+          title: 'GrootPay — Restaurant Management',
+          description: 'A complete digital restaurant management solution with three integrated apps: an interactive menu for customers, a back-office for managers, and a real-time GraphQL API. Covers order processing, payments, inventory, staff tips, and a tiered loyalty program.',
+          tech: ['React', 'Node.js', 'GraphQL', 'MySQL', 'Prisma', 'Stripe'],
+        },
+        {
+          title: 'Vespère — Perfume House Showcase',
+          description: 'A personal project built to practice design skills: an elegant showcase site for a fictional perfume house, with collection presentations, scroll animations, and polished layout.',
+          tech: ['HTML', 'CSS', 'JavaScript'],
+          link: 'https://vespere-perfume.johanne-razafimahefa.workers.dev/',
+        },
+        {
+          title: 'SOX — Accounting Firm SaaS',
+          description: 'An all-in-one management platform for accounting and legal firms. Centralizes client company tracking, tax and social declarations, document workflows, and team coordination. Features e-signature, automated email sequences, and an internal ticketing system.',
+          tech: ['Next.js', 'Symfony', 'MySQL', 'Stripe', 'DocuSeal', 'Mailgun'],
+        },
+        {
           title: 'BPF — E-learning Platform',
           description: 'An online learning platform where students access courses across 20+ categories and instructors create and monetize their programs. Features video lessons, flashcards, revision sheets, and interactive quizzes — available on both web and mobile.',
           tech: ['Next.js', 'React Native', 'Symfony', 'MySQL', 'Stripe'],
@@ -220,22 +243,13 @@ export const translations = {
           description: 'A field service management platform for maintenance companies (HVAC, plumbing, etc.). Handles work order creation, technician dispatching, quote and billing management, and integrated document signing — with a dedicated client portal for order tracking.',
           tech: ['Next.js', 'Symfony', 'MySQL', 'Payplug', 'DocuSeal', 'FullCalendar'],
         },
-        {
-          title: 'SOX — Accounting Firm SaaS',
-          description: 'An all-in-one management platform for accounting and legal firms. Centralizes client company tracking, tax and social declarations, document workflows, and team coordination. Features e-signature, automated email sequences, and an internal ticketing system.',
-          tech: ['Next.js', 'Symfony', 'MySQL', 'Stripe', 'DocuSeal', 'Mailgun'],
-        },
-        {
-          title: 'GrootPay — Restaurant Management',
-          description: 'A complete digital restaurant management solution with three integrated apps: an interactive menu for customers, a back-office for managers, and a real-time GraphQL API. Covers order processing, payments, inventory, staff tips, and a tiered loyalty program.',
-          tech: ['React', 'Node.js', 'GraphQL', 'MySQL', 'Prisma', 'Stripe'],
-        },
       ],
       modal: {
         close: 'Close',
         prev: 'Previous',
         next: 'Next',
       },
+      viewLive: 'View live site',
     },
     skills: {
       label: '// 03. Skills',

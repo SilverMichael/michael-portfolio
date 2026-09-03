@@ -1,12 +1,14 @@
 import { useState, useEffect, useCallback } from "react";
+import { FiExternalLink } from "react-icons/fi";
 import { useApp } from "../context/AppContext";
 
 const projectImages: string[][] = [
-  [],
-  [],
-  [],
-  [],
   [1, 2, 3, 4, 5, 6, 7, 8, 9].map(i => import.meta.env.BASE_URL + `grootpay/gp${i === 1 ? '' : i}.png`),
+  [import.meta.env.BASE_URL + "vespere/vespere.png"],
+  [],
+  [],
+  [],
+  [],
 ];
 
 function ImageModal({
@@ -113,6 +115,17 @@ export function Projects() {
                     </span>
                   ))}
                 </div>
+
+                {"link" in p && p.link && (
+                  <a
+                    href={p.link}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="project-link"
+                  >
+                    {t.projects.viewLive} <FiExternalLink />
+                  </a>
+                )}
               </div>
             );
           })}
