@@ -94,6 +94,12 @@ export const translations = {
           link: 'https://vespere-perfume.johanne-razafimahefa.workers.dev/',
         },
         {
+          title: 'Obscura — Vitrine Studio Photo',
+          description: 'Projet personnel réalisé pour travailler mon sens du design : une vitrine pour un studio de photographie fictif, avec un appareil photo animé en 3D au scroll, une galerie et une mise en page soignée.',
+          tech: ['HTML', 'CSS', 'JavaScript'],
+          link: 'https://obscura.johanne-razafimahefa.workers.dev/',
+        },
+        {
           title: 'SOX — SaaS Cabinets Comptables',
           description: 'Plateforme de gestion tout-en-un pour les cabinets comptables et juridiques. Centralise le suivi des entreprises clientes, des déclarations fiscales et sociales, des documents et des équipes. Intègre la signature électronique, l\'envoi d\'emails automatisé et un système de ticketing interne.',
           tech: ['Next.js', 'Symfony', 'MySQL', 'Stripe', 'DocuSeal', 'Mailgun'],
@@ -222,6 +228,12 @@ export const translations = {
           description: 'A personal project built to practice design skills: an elegant showcase site for a fictional perfume house, with collection presentations, scroll animations, and polished layout.',
           tech: ['HTML', 'CSS', 'JavaScript'],
           link: 'https://vespere-perfume.johanne-razafimahefa.workers.dev/',
+        },
+        {
+          title: 'Obscura — Photo Studio Showcase',
+          description: 'A personal project built to practice design skills: a showcase site for a fictional photography studio, featuring a scroll-animated 3D camera, a gallery, and a polished layout.',
+          tech: ['HTML', 'CSS', 'JavaScript'],
+          link: 'https://obscura.johanne-razafimahefa.workers.dev/',
         },
         {
           title: 'SOX — Accounting Firm SaaS',
